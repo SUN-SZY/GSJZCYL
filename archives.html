@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta name="renderer" content="webkit" />
+<meta property="og:title" content="SUN的博客" />
+<meta name="keywords" content="个人分享">
+<meta name="description" content="SUN的博客是一个分享一些学习及生活中事情的地方。">
+
+<!--<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">-->
+
+
+<link rel="stylesheet" href="./_assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="./_assets/css/animate.min.css">
+<link rel="stylesheet" href="./_assets/css/base.css">
+
+<script src="./_assets/js/wow.min.js"></script>
+<script src="./_assets/js/jquery-1.8.3.min.js"></script>
+<script src="./_assets/js/base.js"></script>
+        <title>
+            SUN - 日常分享笔记</title>
+</head>
+
+<body>
+
+    <div class="base_header">
+
+    <div class="base_header_content">
+
+        <a href="./" class="base_header_logo"><img src="./_assets/img/logo.png"></a>
+
+        <div class="base_header_nav">
+            <ul>
+                <!--这里是没有子栏目的样式-->
+                <li><i class="fa fa-caret-right"></i><a href="/">首页</a></li>
+
+                <!--顶级导航-->
+                <li class="have_second_navs">
+                    <i class="fa fa-caret-right"></i><a href="./archives" class="base_header_nav_active">笔记列表</a>
+
+                    <!--二级导航有子栏目的时候-->
+                    <ul class="nav_child">
+
+                        <li><i class="fa fa-caret-right"></i><a href="./archives">个人</a>
+
+                            <!--三级栏目-->
+                            <ul class="nav_child">
+                                <li><a href="./archives">博客类</a></li>
+                                <li><a href="./archives">技术类</a></li>
+                                <li><a href="./archives">学习类</a></li>
+                            </ul>
+
+                        </li>
+
+                        <!--二级导航没有子栏目的时候-->
+                        <li><a href="./archives">学习</a></li>
+
+                    </ul>
+                </li>
+
+
+
+                <!--顶级导航-->
+                <li class="have_second_navs">
+                    <i class="fa fa-caret-right"></i><a href="/essay/archives">随笔列表</a>
+
+
+                    <!--二级导航有子栏目的时候-->
+                    <ul class="nav_child">
+
+                        <li><i class="fa fa-caret-right"></i><a href="./archives">学习</a>
+
+                            <!--三级栏目-->
+                            <ul class="nav_child">
+                                <li><a href="./archives">css</a></li>
+                                <li><a href="./archives">js</a></li>
+                                <li><a href="./archives">jquery</a></li>
+                            </ul>
+
+                        </li>
+
+                        <!--二级导航没有子栏目的时候-->
+                        <li><a href="javascript:void(0)">学习</a></li>
+
+                    </ul>
+                </li>
+
+
+
+
+                <li>
+                    <i class="fa fa-caret-right"></i>
+                    <a href="/essay">随笔</a>
+                </li>
+
+
+            </ul>
+
+
+        </div>
+
+        <!--手机导航部分-->
+
+        <div class="base_nav_menu" id="base_nav_menu" bind_click="true"><span bind_click="true"></span></div>
+
+        <div class="base_nav_zhezao"></div>
+
+    </div>
+</div>
+        <div class="base_content_body">
+    <!--base列表页身体部分居中显示-->
+    <div class="base_content_content clearfix">
+        <!--base列表页身体部分的左边部分设置宽度-->
+        <div class="base_content_left">
+
+            <!--base列表页身体部分最新博客盒子-->
+            <div class="base_list_box wow zoomIn" data-wow-duration="1s">
+
+
+
+                <div class="main">
+                    <nav class="navigation">
+                    </nav>
+                    <div class="blogs-list-block">
+                        
+                            <div class="annual-block">
+
+                                <ol>
+                                    
+
+
+                                        <li class="wow fadeIn" data-wow-delay="0.1s" data-wow-duration="1s">
+
+                                            <div class="base_list_box_title">
+
+                                                <!--列表页判断文章是否原创是原创添加span元素-->
+                                                <span><img src="./_assets/img/yuanchuangwenzhang.png"></span>
+
+                                                <a class="base_list_box_title_a" href="article/untitled-2" title="⑤存储器">
+                                                    ⑤存储器
+                                                </a>
+                                            </div>
+
+                                            <!--列表页判断文章是否原创是原创添加版权元素-->
+                                            <!-- <div class="base_list_xiebian"><span>版权</span></div> -->
+
+                                            <div class="base_list_box_content clearfix">
+
+                                                <div class="base_list_box_left">
+                                                    <a href="article/untitled-2" title="⑤存储器">
+                                                        <img src="https://cdn.seovx.com/ha/?mom=302">
+
+                                                    </a>
+                                                </div>
+
+                                                <div class="base_list_box_right">
+                                                    <div class="base_list_box_info" title="文章的全部简介部分">暂无简介</div>
+                                                </div>
+
+                                            </div>
+
+
+                                            <div class="base_list_box_readmore">
+                                                <a href="article/untitled-2" title="阅读全部">阅读全部<i
+                                                        class="fa fa-paper-plane"></i></a>
+                                            </div>
+
+                                            <div class="base_list_box_message clearfix">
+
+                                                <div class="left">
+
+                                                    <a href="article/untitled-2" title="文章所在栏目"><i
+                                                            class="fa fa-bookmark"></i>暂无介绍</a>
+
+                                                </div>
+
+                                                <div class="right">
+                                                    <a href="javascript:void(0)" title="文章发布时间"><i
+                                                            class="fa fa-clock-o"></i> <time
+                                                            datetime="1638328919000"
+                                                            class="annual-block-date">
+                                                            2021-12-01 11:21
+                                                        </time></a>
+                                                    <!-- <a href="javascript:void(0)" title="文章点击次数"><i class="fa fa-eye"></i>9999</a>
+                                    <a href="javascript:void(0)" title="文章点赞次数"><i class="fa fa-thumbs-up"></i>9999</a>
+                                    <a href="javascript:void(0)" title="文章评论次数"><i class="fa fa-comments-o"></i>9999</a> -->
+
+                                                </div>
+
+                                            </div>
+
+                                        </li>
+                                        
+
+
+                                        <li class="wow fadeIn" data-wow-delay="0.1s" data-wow-duration="1s">
+
+                                            <div class="base_list_box_title">
+
+                                                <!--列表页判断文章是否原创是原创添加span元素-->
+                                                <span><img src="./_assets/img/yuanchuangwenzhang.png"></span>
+
+                                                <a class="base_list_box_title_a" href="article/untitled-3" title="④总线">
+                                                    ④总线
+                                                </a>
+                                            </div>
+
+                                            <!--列表页判断文章是否原创是原创添加版权元素-->
+                                            <!-- <div class="base_list_xiebian"><span>版权</span></div> -->
+
+                                            <div class="base_list_box_content clearfix">
+
+                                                <div class="base_list_box_left">
+                                                    <a href="article/untitled-3" title="④总线">
+                                                        <img src="https://cdn.seovx.com/ha/?mom=302">
+
+                                                    </a>
+                                                </div>
+
+                                                <div class="base_list_box_right">
+                                                    <div class="base_list_box_info" title="文章的全部简介部分">暂无简介</div>
+                                                </div>
+
+                                            </div>
+
+
+                                            <div class="base_list_box_readmore">
+                                                <a href="article/untitled-3" title="阅读全部">阅读全部<i
+                                                        class="fa fa-paper-plane"></i></a>
+                                            </div>
+
+                                            <div class="base_list_box_message clearfix">
+
+                                                <div class="left">
+
+                                                    <a href="article/untitled-3" title="文章所在栏目"><i
+                                                            class="fa fa-bookmark"></i>暂无介绍</a>
+
+                                                </div>
+
+                                                <div class="right">
+                                                    <a href="javascript:void(0)" title="文章发布时间"><i
+                                                            class="fa fa-clock-o"></i> <time
+                                                            datetime="1638237275000"
+                                                            class="annual-block-date">
+                                                            2021-11-30 09:54
+                                                        </time></a>
+                                                    <!-- <a href="javascript:void(0)" title="文章点击次数"><i class="fa fa-eye"></i>9999</a>
+                                    <a href="javascript:void(0)" title="文章点赞次数"><i class="fa fa-thumbs-up"></i>9999</a>
+                                    <a href="javascript:void(0)" title="文章评论次数"><i class="fa fa-comments-o"></i>9999</a> -->
+
+                                                </div>
+
+                                            </div>
+
+                                        </li>
+                                        
+
+
+                                        <li class="wow fadeIn" data-wow-delay="0.1s" data-wow-duration="1s">
+
+                                            <div class="base_list_box_title">
+
+                                                <!--列表页判断文章是否原创是原创添加span元素-->
+                                                <span><img src="./_assets/img/yuanchuangwenzhang.png"></span>
+
+                                                <a class="base_list_box_title_a" href="article/untitled-1" title="③ 计算机的发展史">
+                                                    ③ 计算机的发展史
+                                                </a>
+                                            </div>
+
+                                            <!--列表页判断文章是否原创是原创添加版权元素-->
+                                            <!-- <div class="base_list_xiebian"><span>版权</span></div> -->
+
+                                            <div class="base_list_box_content clearfix">
+
+                                                <div class="base_list_box_left">
+                                                    <a href="article/untitled-1" title="③ 计算机的发展史">
+                                                        <img src="https://cdn.seovx.com/ha/?mom=302">
+
+                                                    </a>
+                                                </div>
+
+                                                <div class="base_list_box_right">
+                                                    <div class="base_list_box_info" title="文章的全部简介部分">暂无简介</div>
+                                                </div>
+
+                                            </div>
+
+
+                                            <div class="base_list_box_readmore">
+                                                <a href="article/untitled-1" title="阅读全部">阅读全部<i
+                                                        class="fa fa-paper-plane"></i></a>
+                                            </div>
+
+                                            <div class="base_list_box_message clearfix">
+
+                                                <div class="left">
+
+                                                    <a href="article/untitled-1" title="文章所在栏目"><i
+                                                            class="fa fa-bookmark"></i>暂无介绍</a>
+
+                                                </div>
+
+                                                <div class="right">
+                                                    <a href="javascript:void(0)" title="文章发布时间"><i
+                                                            class="fa fa-clock-o"></i> <time
+                                                            datetime="1638233543000"
+                                                            class="annual-block-date">
+                                                            2021-11-30 08:52
+                                                        </time></a>
+                                                    <!-- <a href="javascript:void(0)" title="文章点击次数"><i class="fa fa-eye"></i>9999</a>
+                                    <a href="javascript:void(0)" title="文章点赞次数"><i class="fa fa-thumbs-up"></i>9999</a>
+                                    <a href="javascript:void(0)" title="文章评论次数"><i class="fa fa-comments-o"></i>9999</a> -->
+
+                                                </div>
+
+                                            </div>
+
+                                        </li>
+                                        
+
+
+                                        <li class="wow fadeIn" data-wow-delay="0.1s" data-wow-duration="1s">
+
+                                            <div class="base_list_box_title">
+
+                                                <!--列表页判断文章是否原创是原创添加span元素-->
+                                                <span><img src="./_assets/img/yuanchuangwenzhang.png"></span>
+
+                                                <a class="base_list_box_title_a" href="article/untitled" title="②计算机基本组成">
+                                                    ②计算机基本组成
+                                                </a>
+                                            </div>
+
+                                            <!--列表页判断文章是否原创是原创添加版权元素-->
+                                            <!-- <div class="base_list_xiebian"><span>版权</span></div> -->
+
+                                            <div class="base_list_box_content clearfix">
+
+                                                <div class="base_list_box_left">
+                                                    <a href="article/untitled" title="②计算机基本组成">
+                                                        <img src="https://cdn.seovx.com/ha/?mom=302">
+
+                                                    </a>
+                                                </div>
+
+                                                <div class="base_list_box_right">
+                                                    <div class="base_list_box_info" title="文章的全部简介部分">暂无简介</div>
+                                                </div>
+
+                                            </div>
+
+
+                                            <div class="base_list_box_readmore">
+                                                <a href="article/untitled" title="阅读全部">阅读全部<i
+                                                        class="fa fa-paper-plane"></i></a>
+                                            </div>
+
+                                            <div class="base_list_box_message clearfix">
+
+                                                <div class="left">
+
+                                                    <a href="article/untitled" title="文章所在栏目"><i
+                                                            class="fa fa-bookmark"></i>暂无介绍</a>
+
+                                                </div>
+
+                                                <div class="right">
+                                                    <a href="javascript:void(0)" title="文章发布时间"><i
+                                                            class="fa fa-clock-o"></i> <time
+                                                            datetime="1637758350000"
+                                                            class="annual-block-date">
+                                                            2021-11-24 20:52
+                                                        </time></a>
+                                                    <!-- <a href="javascript:void(0)" title="文章点击次数"><i class="fa fa-eye"></i>9999</a>
+                                    <a href="javascript:void(0)" title="文章点赞次数"><i class="fa fa-thumbs-up"></i>9999</a>
+                                    <a href="javascript:void(0)" title="文章评论次数"><i class="fa fa-comments-o"></i>9999</a> -->
+
+                                                </div>
+
+                                            </div>
+
+                                        </li>
+                                        
+
+
+                                        <li class="wow fadeIn" data-wow-delay="0.1s" data-wow-duration="1s">
+
+                                            <div class="base_list_box_title">
+
+                                                <!--列表页判断文章是否原创是原创添加span元素-->
+                                                <span><img src="./_assets/img/yuanchuangwenzhang.png"></span>
+
+                                                <a class="base_list_box_title_a" href="article/mooc-1" title="①MOOC 计算机简介">
+                                                    ①MOOC 计算机简介
+                                                </a>
+                                            </div>
+
+                                            <!--列表页判断文章是否原创是原创添加版权元素-->
+                                            <!-- <div class="base_list_xiebian"><span>版权</span></div> -->
+
+                                            <div class="base_list_box_content clearfix">
+
+                                                <div class="base_list_box_left">
+                                                    <a href="article/mooc-1" title="①MOOC 计算机简介">
+                                                        <img src="https://cdn.seovx.com/ha/?mom=302">
+
+                                                    </a>
+                                                </div>
+
+                                                <div class="base_list_box_right">
+                                                    <div class="base_list_box_info" title="文章的全部简介部分">暂无简介</div>
+                                                </div>
+
+                                            </div>
+
+
+                                            <div class="base_list_box_readmore">
+                                                <a href="article/mooc-1" title="阅读全部">阅读全部<i
+                                                        class="fa fa-paper-plane"></i></a>
+                                            </div>
+
+                                            <div class="base_list_box_message clearfix">
+
+                                                <div class="left">
+
+                                                    <a href="article/mooc-1" title="文章所在栏目"><i
+                                                            class="fa fa-bookmark"></i>暂无介绍</a>
+
+                                                </div>
+
+                                                <div class="right">
+                                                    <a href="javascript:void(0)" title="文章发布时间"><i
+                                                            class="fa fa-clock-o"></i> <time
+                                                            datetime="1636546140000"
+                                                            class="annual-block-date">
+                                                            2021-11-10 20:09
+                                                        </time></a>
+                                                    <!-- <a href="javascript:void(0)" title="文章点击次数"><i class="fa fa-eye"></i>9999</a>
+                                    <a href="javascript:void(0)" title="文章点赞次数"><i class="fa fa-thumbs-up"></i>9999</a>
+                                    <a href="javascript:void(0)" title="文章评论次数"><i class="fa fa-comments-o"></i>9999</a> -->
+
+                                                </div>
+
+                                            </div>
+
+                                        </li>
+                                        
+
+
+                                        <li class="wow fadeIn" data-wow-delay="0.1s" data-wow-duration="1s">
+
+                                            <div class="base_list_box_title">
+
+                                                <!--列表页判断文章是否原创是原创添加span元素-->
+                                                <span><img src="./_assets/img/yuanchuangwenzhang.png"></span>
+
+                                                <a class="base_list_box_title_a" href="article/mooc" title="MOOC 前言">
+                                                    MOOC 前言
+                                                </a>
+                                            </div>
+
+                                            <!--列表页判断文章是否原创是原创添加版权元素-->
+                                            <!-- <div class="base_list_xiebian"><span>版权</span></div> -->
+
+                                            <div class="base_list_box_content clearfix">
+
+                                                <div class="base_list_box_left">
+                                                    <a href="article/mooc" title="MOOC 前言">
+                                                        <img src="https://cdn.seovx.com/ha/?mom=302">
+
+                                                    </a>
+                                                </div>
+
+                                                <div class="base_list_box_right">
+                                                    <div class="base_list_box_info" title="文章的全部简介部分">暂无简介</div>
+                                                </div>
+
+                                            </div>
+
+
+                                            <div class="base_list_box_readmore">
+                                                <a href="article/mooc" title="阅读全部">阅读全部<i
+                                                        class="fa fa-paper-plane"></i></a>
+                                            </div>
+
+                                            <div class="base_list_box_message clearfix">
+
+                                                <div class="left">
+
+                                                    <a href="article/mooc" title="文章所在栏目"><i
+                                                            class="fa fa-bookmark"></i>暂无介绍</a>
+
+                                                </div>
+
+                                                <div class="right">
+                                                    <a href="javascript:void(0)" title="文章发布时间"><i
+                                                            class="fa fa-clock-o"></i> <time
+                                                            datetime="1636542582000"
+                                                            class="annual-block-date">
+                                                            2021-11-10 19:09
+                                                        </time></a>
+                                                    <!-- <a href="javascript:void(0)" title="文章点击次数"><i class="fa fa-eye"></i>9999</a>
+                                    <a href="javascript:void(0)" title="文章点赞次数"><i class="fa fa-thumbs-up"></i>9999</a>
+                                    <a href="javascript:void(0)" title="文章评论次数"><i class="fa fa-comments-o"></i>9999</a> -->
+
+                                                </div>
+
+                                            </div>
+
+                                        </li>
+                                        
+                                </ol>
+                            </div>
+                            
+                    </div>
+                </div>
+
+
+
+                <div class="shangxiaye clearfix">
+                    <a title="Total record"><b>∞</b></a>
+                    <a href="#">毫无上限</a>
+                    <b>1</b>
+                    <a href="#">没有底限</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--base列表页身体右边部分-->
+        <div class="base_content_right">
+
+            <div class="base_content_right_item" id="base_content_right_down">
+                <div class="base_search">
+                    <form name="searchform" class="search_form" method="post" action="#" target="_blank">
+                        <input type="text" class="search_text" required="required" name="keyboard" placeholder="输入关键字搜索">
+                        <input type="hidden" name="tbname" value="news">
+                        <input type="hidden" name="show" value="title,smalltext">
+                        <input type="hidden" name="tempid" value="1">
+                        <input type="hidden" name="classid" value="1,4,9">
+                        <input type="submit" class="search_btn" value="" title="搜索">
+                        <i class="fa fa-search"></i>
+                    </form>
+                </div>
+
+
+
+                <!--这里是页面右侧的导航部分-->
+
+                <div class="blog_right_nav">
+
+    
+
+        <ul>
+            <blog_active_and_hover_class class="blog_active_and_hover_class"></blog_active_and_hover_class>
+            <li class="blog_lanmu_active"><a href="javascript:void(0)">全部文章</a></li>
+
+            
+                <li>
+                    <a href="article/untitled-2">
+                        ⑤存储器
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="article/untitled-3">
+                        ④总线
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="article/untitled-1">
+                        ③ 计算机的发展史
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="article/untitled">
+                        ②计算机基本组成
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="article/mooc-1">
+                        ①MOOC 计算机简介
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="article/mooc">
+                        MOOC 前言
+                    </a>
+                </li>
+                
+
+        </ul>
+        
+
+</div>
+
+
+
+
+
+            </div>
+            <!--这里是右侧的博客介绍部分-->
+            <div class="blog_info">
+    <ul>
+        <blog_active_and_hover_class class="blog_active_and_hover_class"></blog_active_and_hover_class>
+        <li class="blog_lanmu_active"><a href="javascript:void(0)">博客介绍</a></li>
+        <li><a href="javascript:void(0)">创建时间:2020年2月14日</a></li>
+        <li><a href="javascript:void(0)">创建目的:</a></li>
+        <!-- <li><a href="javascript:void(0)">文章总数:210</a></li>
+        <li><a href="javascript:void(0)">来访人数:210</a></li> -->
+    </ul>
+</div>
+<!--这里是右侧的博主介绍部分-->
+<div class="blog_master_info">
+    <ul>
+        <blog_active_and_hover_class class="blog_active_and_hover_class"></blog_active_and_hover_class>
+        <li class="blog_lanmu_active"><a href="javascript:void(0)">博主介绍</a></li>
+        <li><a href="javascript:void(0)">网名：SUN</a></li>
+        <li><a href="javascript:void(0)">座右铭：简单分享</a></li>
+        <li><a href="javascript:void(0)">简介：简单分享</a></li>
+    </ul>
+</div>
+
+
+
+        </div>
+
+
+
+        <!-- <div class="base_content_right_item">
+
+            <h3 class="base_content_right_item_title">点击排行</h3>
+            <div class="base_content_right_item_list">
+
+                <ul>
+                    <li><a href="javascript:void(0)">最新文章第一篇文章的标题部分嫩嗯嗯嗯嗯讷讷呢</a></li>
+                    <li><a href="javascript:void(0)">最新文章第二篇文章的标题部分嫩嗯嗯嗯嗯讷讷呢</a></li>
+                    <li><a href="javascript:void(0)">最新文章第三篇文章的标题部分嫩嗯嗯嗯嗯讷讷呢</a></li>
+                    <li><a href="javascript:void(0)">最新文章第四篇文章的标题部分嫩嗯嗯嗯嗯讷讷呢</a></li>
+                    <li><a href="javascript:void(0)">最新文章第五篇文章的标题部分嫩嗯嗯嗯嗯讷讷呢</a></li>
+                    <li><a href="javascript:void(0)">最新文章第六篇文章的标题部分嫩嗯嗯嗯嗯讷讷呢</a></li>
+                    <li><a href="javascript:void(0)">最新文章第七篇文章的标题部分嫩嗯嗯嗯嗯讷讷呢</a></li>
+                    <li><a href="javascript:void(0)">最新文章第八篇文章的标题部分嫩嗯嗯嗯嗯讷讷呢</a></li>
+                    <li><a href="javascript:void(0)">最新文章第九篇文章的标题部分嫩嗯嗯嗯嗯讷讷呢</a></li>
+                    <li><a href="javascript:void(0)">最新文章第十篇文章的标题部分嫩嗯嗯嗯嗯讷讷呢</a></li>
+
+                </ul>
+            </div>
+        </div> -->
+
+
+
+        <div class="base_content_right_item">
+
+    
+
+        <h3 class="base_content_right_item_title">最新文章</h3>
+        <div class="base_content_right_item_list">
+
+            <ul>
+                
+                    <li>
+                        <a href="javascript:void(0)">
+                            ⑤存储器
+                        </a>
+                    </li>
+                    <li>
+                        <a href="article/untitled-2">
+                            ⑤存储器
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="javascript:void(0)">
+                            ④总线
+                        </a>
+                    </li>
+                    <li>
+                        <a href="article/untitled-3">
+                            ④总线
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="javascript:void(0)">
+                            ③ 计算机的发展史
+                        </a>
+                    </li>
+                    <li>
+                        <a href="article/untitled-1">
+                            ③ 计算机的发展史
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="javascript:void(0)">
+                            ②计算机基本组成
+                        </a>
+                    </li>
+                    <li>
+                        <a href="article/untitled">
+                            ②计算机基本组成
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="javascript:void(0)">
+                            ①MOOC 计算机简介
+                        </a>
+                    </li>
+                    <li>
+                        <a href="article/mooc-1">
+                            ①MOOC 计算机简介
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="javascript:void(0)">
+                            MOOC 前言
+                        </a>
+                    </li>
+                    <li>
+                        <a href="article/mooc">
+                            MOOC 前言
+                        </a>
+                    </li>
+                    
+
+
+            </ul>
+
+        </div>
+        
+</div>
+
+
+
+
+
+
+
+    </div>
+
+</div>
+
+</div>
+            <div class="go_top"><i class="fa fa-angle-up"></i></div>
+            <!--index页面的底部部分-->
+<div class="index_footer">
+    <div class="base_footer">
+        <ul>
+            <li><a href="#" target="_blank" title="QQ:1224430842@qq.com"  class="base_footer_qq"><i class="fa fa-qq"></i></a></li>
+            <li><a href="#" target="_blank" title="邮箱：1224430842@qq.com" class="base_footer_email"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="javascript:void(0)" title="扫描微信二维码你也联系不上我" class="base_footer_weixin"><i class="fa fa-weixin"></i><img src="/_assets/img/erweima.png"></a></li>
+        </ul>
+    
+        <span class="base_footer_text">Copyright © 2022-2099 Power by SUN的博客</span>
+        <span class="base_footer_text">ICP备案号：<a href="http://www.beian.miit.gov.cn/">XXXXXXXXXX</a></span>
+    </div>
+    
+</div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    
+<meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta name="renderer" content="webkit" />
+<meta property="og:title" content="SUN的博客" />
+
+<meta name="keywords" content="个人分享">
+<meta name="description" content="SUN的博客是一个分享一些学习及生活中事情的地方。">
+
+<!--<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">-->
+<link rel="stylesheet" href="../_assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="../_assets/css/base.css">
+<!-- <link rel="stylesheet" href="../_assets/css/index.css"> -->
+
+
+<script src="../_assets/js/jquery-1.8.3.min.js"></script>
+<script src="../_assets/js/base.js"></script>
+
+
+<!--引入分享插件-->
+<link rel="stylesheet" href="../_assets/css/share.min.css">
+<script src="../_assets/js/wow.min.js"></script>
+<!--引入分享插件-->
+<script src="../_assets/js/jquery.share.min.js"></script>
+<!--这里是因为在文章所以要隐藏掉右侧身体部分在大屏幕下的div，在小屏幕时在显示出来-->
+<style type="text/css">.base_content_right{width: 0;visibility: hidden;height: 0;}</style>
+
+        <title>
+            ①MOOC 计算机简介 -
+                SUN的历史分享</title>
+<style>.mermaid { background-color: white; width: 640px; }</style></head>
+
+<body>
+    <div class="base_header">
+
+    <div class="base_header_content">
+
+        <a href="./" class="base_header_logo"><img src="./_assets/img/logo.png"></a>
+
+        <div class="base_header_nav">
+            <ul>
+                <!--这里是没有子栏目的样式-->
+                <li><i class="fa fa-caret-right"></i><a href="/">首页</a></li>
+
+                <!--顶级导航-->
+                <li class="have_second_navs">
+                    <i class="fa fa-caret-right"></i><a href="./archives" class="base_header_nav_active">笔记列表</a>
+
+                    <!--二级导航有子栏目的时候-->
+                    <ul class="nav_child">
+
+                        <li><i class="fa fa-caret-right"></i><a href="./archives">个人</a>
+
+                            <!--三级栏目-->
+                            <ul class="nav_child">
+                                <li><a href="./archives">博客类</a></li>
+                                <li><a href="./archives">技术类</a></li>
+                                <li><a href="./archives">学习类</a></li>
+                            </ul>
+
+                        </li>
+
+                        <!--二级导航没有子栏目的时候-->
+                        <li><a href="./archives">学习</a></li>
+
+                    </ul>
+                </li>
+
+
+
+                <!--顶级导航-->
+                <li class="have_second_navs">
+                    <i class="fa fa-caret-right"></i><a href="/essay/archives">随笔列表</a>
+
+
+                    <!--二级导航有子栏目的时候-->
+                    <ul class="nav_child">
+
+                        <li><i class="fa fa-caret-right"></i><a href="./archives">学习</a>
+
+                            <!--三级栏目-->
+                            <ul class="nav_child">
+                                <li><a href="./archives">css</a></li>
+                                <li><a href="./archives">js</a></li>
+                                <li><a href="./archives">jquery</a></li>
+                            </ul>
+
+                        </li>
+
+                        <!--二级导航没有子栏目的时候-->
+                        <li><a href="javascript:void(0)">学习</a></li>
+
+                    </ul>
+                </li>
+
+
+
+
+                <li>
+                    <i class="fa fa-caret-right"></i>
+                    <a href="/essay">随笔</a>
+                </li>
+
+
+            </ul>
+
+
+        </div>
+
+        <!--手机导航部分-->
+
+        <div class="base_nav_menu" id="base_nav_menu" bind_click="true"><span bind_click="true"></span></div>
+
+        <div class="base_nav_zhezao"></div>
+
+    </div>
+</div>
+        <div class="base_content_body">
+    <!--base文章页身体部分居中显示-->
+    <div class="base_content_content clearfix">
+
+
+        <div class="wenzhang_box wow zoomIn">
+            <!--文章盒子-->
+            <div class="wenzhang_box_content clearfix">
+
+
+                <!-- <img class="wenzhang_yinzhang" src="img/yinzhang.png"> -->
+                <!--文章抬头-->
+                <div class="wenzhang_box_content_title">
+
+                    <h4>
+                        <a href="javascript:void(0)">我的博客<i class="fa fa-angle-right"></i></a>
+
+                        ①MOOC 计算机简介
+
+
+                    </h4>
+
+                    <p class="wenzhang_box_content_jieshao">
+                        <span class="wenzhang_box_content_jieshao_zuozhe">作者：SUN</span>
+
+                        <!-- <span class="wenzhang_box_content_jieshao_zishu">总字数：3500</span> -->
+
+                        <span class="wenzhang_box_content_jieshao_time">更新于：<time datetime="1636546140000"
+                            >2021-11-10 20:09</time
+                          ></span>
+
+                        <span class="wenzhang_box_content_jieshao_weiguan">围观群众：<span class="wenzhang_box_content_jieshao_xieti">8888</span></span>
+
+                        <span class="wenzhang_box_content_jieshao_dig">点赞人数：<span class="wenzhang_box_content_jieshao_xieti">500</span></span>
+
+                        <span class="wenzhang_box_content_jieshao_pinglun">评论人数：<span class="wenzhang_box_content_jieshao_xieti">500</span></span>
+
+                    </p>
+
+                </div>
+
+                <!--文章抬头的右侧书-->
+                <!--            <div class="wenzhang_box_content_title_right">-->
+                <!--                <img src="img/yinzhang.png">-->
+                <!--            </div>-->
+
+                <!--文章身体部分-->
+
+                <div class="wenzhang_box_article">
+
+                    <div class="wenzhang_box_article_info">
+                        <i class="fa fa-quote-left"></i> 这里是文章的简介部分
+                        <i class="fa fa-quote-right"></i>
+                    </div>
+
+
+                    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=86 src="//music.163.com/outchain/player?type=2&id=541687281&auto=1&height=66">
+                       
+                    </iframe>
+
+                    <!--文章页内容开始的地方-->
+
+                    <link rel="stylesheet" href="../_assets/main.css" />
+
+<div class="main">
+    <article>
+        <header>
+            <h1 class="article-title">
+                ①MOOC 计算机简介
+            </h1>
+            <div class="article-info">
+                <div>
+                    <span>Created At：<time datetime="1636546140000"
+              >2021-11-10 20:09</time
+            ></span
+          >
+          <span
+            >Updated At：<time datetime="1639647626000"
+              >2021-12-16 17:40</time
+            ></span
+          >
+        </div>
+        
+        <div>
+          Keywords: 
+          <span class="keyword">计算机组成原理 - mooc</span>
+                    
+                </div>
+                
+            </div>
+        </header>
+        <div class="article-content markdown-body">
+            <h2 id="一-简介">一、简介</h2>
+<ol>
+<li>
+<p>线代计算机的多样性</p>
+<ul>
+<li>把感应器嵌入和装备到电网、铁路、桥梁、隧道、公路、建筑、供水系统、大坝、油气管道等各种物体中，并且被普遍连接，形成所谓“物联网”，然后将“物联网”与现有的互联网整合起来，实现人类社会与物理系统的整合，形成智慧地球</li>
+</ul>
+</li>
+<li>
+<p>计算机的软硬件概念</p>
+<ul>
+<li>计算机系统</li>
+</ul>
+
+				<div>
+					
+					<pre class="mermaid">graph LR
+ 
+ A[计算机系统]--&gt;|硬件|B["计算机的实体,如主机、外设等"]
+ A--&gt;|软件|D["具有各类特殊功能的信息（程序）组成"]
+ 
+ E[软件]--&gt;|系统软件|M["用来管理整个计算机系统&lt;br&gt;
+ 语言处理程序&lt;br&gt;
+ 操作系统&lt;br&gt;
+ 服务性程序&lt;br&gt;
+ 数据库管理系统&lt;br&gt;
+ 网络软件"]
+ E--&gt;|应用软件|N[按任务需要编制成的各种程序]
+ 
+ U["硬件&lt;br&gt;软件"]--&gt;I["应用软件&lt;br&gt;系统软件&lt;br&gt;硬件"]
+
+</pre>
+				</div>
+			</li>
+</ol>
+<h2 id="二-计算机的层次结构">二、计算机的层次结构</h2>
+<ol>
+<li>系统复杂性管理方法
+<ul>
+<li>抽象</li>
+<li>抽象-对于一个过程或者一件制品的某些细节有目的的隐藏，以便把其他方面、细节或者结构表达得更加清楚</li>
+<li>抽象-指高级的模型，和低级的实体相对</li>
+<li>抽象-隐藏系统中不重要的细节</li>
+</ul>
+</li>
+<li>以物理层的结构对计算机系统进行分类 <img src="/_resources/0b1b7c4bbcb24ed3ae206ac9da42fb66.png" /></li>
+<li>以程序员的方式对计算机系统进行分类
+<ul>
+<li>发展顺序为</li>
+<li>机器语言—》汇编语言–》》高级语言–》》微指令系统</li>
+<li>汇编语言可以对操作系统进行编程，</li>
+<li>每个指令都要有次序的，因此才会有微指令操作 <img src="/_resources/0872751f37ff434fa0f50bb75c8a4dbe.png" /> <img src="/_resources/07936e30e1c041d7a811c2352706580a.png" /></li>
+<li>划分软硬件的原因是有些指令使用软件或硬件的时候会比较好</li>
+</ul>
+</li>
+</ol>
+<h2 id="三-问题">三、问题</h2>
+<ul>
+<li>计算机组成与计算机体系结构从研究内容上来说有什么区别呢？</li>
+<li><img src="/_resources/52fbf4131a4d489b8506772e617de9c2.png" /></li>
+</ul>
+
+        </div>
+    </article>
+</div>
+
+
+
+
+
+
+
+                </div>
+
+
+                <div class="article_dig">
+
+                    <!--文章页的点赞按钮-->
+                    <a href="javascript:void(0)" class="wenzhang_dig_button" title="点个赞鼓励一下吧！"><i class="fa fa-thumbs-up"></i></a>
+
+                    <!--分享插件的盒子-->
+                    <div id="share"></div>
+
+                    <script>
+                        $('#share').share({
+                            sites: ['wechat', 'weibo', 'qq', 'qzone', 'tencent', 'douban']
+                        });
+                    </script>
+
+                </div>
+
+
+                <div class="wenzhang_box_article_shengming">
+                    <p>文章声明： 非特殊说明，本文版权归 SUN个人博客 所有，转载请注明出处</p>
+                    <p>本文标题： <span class="wenzhang_box_article_shengming_title" title="文章title">①MOOC 计算机简介</span></p>
+                    <p>本文地址： <span class="wenzhang_box_article_shengming_link" title="文章链接"></span></p>
+                    <p>点此返回目录： <span class="wenzhang_box_article_shengming_link" title="目录链接"><a href="../">回到顶端<a href="javascript:window.scrollTo(0,0)"  title="回到顶端"></a></a></span></p>
+                </div>
+
+                <!-- <div class="article_prev_next_list clearfix">
+                    <a href="javascript:void(0)" title="上篇文章：标题"><i class="fa fa-arrow-left"></i>上篇文章：无</a>
+                    <a href="javascript:void(0)" title="返回目录"><i class="fa fa-list-ul"></i>返回目录</a>
+                    <a href="javascript:void(0)" title="下篇文章：标题"><i class="fa fa-arrow-right"></i>下篇文章：无</a>
+                </div> -->
+
+                <div class="pinglun_box">
+                    <h3>全部评论</h3>
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+
+
+        <!--base随笔页身体右边部分-->
+        <div class="base_content_right">
+
+            <div class="base_content_right_item" id="base_content_right_down">
+                <div class="base_search">
+                    <form name="searchform" class="search_form" method="post" action="#" target="_blank">
+                        <input type="text" class="search_text" required="required" name="keyboard" placeholder="输入关键字搜索">
+                        <input type="hidden" name="tbname" value="news">
+                        <input type="hidden" name="show" value="title,smalltext">
+                        <input type="hidden" name="tempid" value="1">
+                        <input type="hidden" name="classid" value="1,4,9">
+                        <input type="submit" class="search_btn" value="" title="搜索">
+                        <i class="fa fa-search"></i>
+                    </form>
+                </div>
+
+
+
+                <!--这里是页面右侧的导航部分-->
+                <div class="blog_right_nav">
+
+                    <ul>
+                        <blog_active_and_hover_class class="blog_active_and_hover_class"></blog_active_and_hover_class>
+
+                    </ul>
+
+                </div>
+                <!--这里是右侧的博客介绍部分-->
+                <div class="blog_info">
+                    <ul>
+                        <blog_active_and_hover_class class="blog_active_and_hover_class"></blog_active_and_hover_class>
+                        <li class="blog_lanmu_active"><a href="javascript:void(0)">博客介绍</a></li>
+                        <li><a href="javascript:void(0)">创建时间:<time datetime="1636546140000"
+                            >2021-11-10 20:09</time
+                          ></a></li>
+                        <li><a href="javascript:void(0)">创建目的:玩</a></li>
+                        <!-- <li><a href="javascript:void(0)">文章总数:0</a></li>
+                            <li><a href="javascript:void(0)">来访人数:210</a></li> -->
+                    </ul>
+                </div>
+                <!--这里是右侧的博主介绍部分-->
+                <div class="blog_master_info">
+                    <ul>
+                        <blog_active_and_hover_class class="blog_active_and_hover_class"></blog_active_and_hover_class>
+                        <li class="blog_lanmu_active"><a href="javascript:void(0)">博主介绍</a></li>
+                        <li><a href="javascript:void(0)">网名：SUN</a></li>
+                        <li><a href="javascript:void(0)">座右铭：这里放座右铭，写什么还没想好。</a></li>
+                        <li><a href="javascript:void(0)">简介：90后，爱研究，爱读书，爱旅游，期盼有一天有能力环游全世界，看遍世界的美丽。</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+
+
+            <div class="base_content_right_item">
+
+                <h3 class="base_content_right_item_title">点击排行</h3>
+
+
+
+
+            </div>
+
+
+            <div class="base_content_right_item">
+
+                <h3 class="base_content_right_item_title">最新文章</h3>
+                <div class="base_content_right_item_list">
+                    <div class="blogs-list-block">
+                        
+                            <div class="annual-block">
+                                <time class="annual-block-headline">2021</time>
+                                <ol>
+                                    
+                                        <li>
+                                            <time datetime="1638328919000" class="annual-block-date">
+                                2021-12-01 11:21
+                              </time>
+                                            <a class="annual-block-title" href="article/untitled-2">
+                                                ⑤存储器
+                                            </a>
+                                        </li>
+                                        
+                                        <li>
+                                            <time datetime="1638237275000" class="annual-block-date">
+                                2021-11-30 09:54
+                              </time>
+                                            <a class="annual-block-title" href="article/untitled-3">
+                                                ④总线
+                                            </a>
+                                        </li>
+                                        
+                                        <li>
+                                            <time datetime="1638233543000" class="annual-block-date">
+                                2021-11-30 08:52
+                              </time>
+                                            <a class="annual-block-title" href="article/untitled-1">
+                                                ③ 计算机的发展史
+                                            </a>
+                                        </li>
+                                        
+                                        <li>
+                                            <time datetime="1637758350000" class="annual-block-date">
+                                2021-11-24 20:52
+                              </time>
+                                            <a class="annual-block-title" href="article/untitled">
+                                                ②计算机基本组成
+                                            </a>
+                                        </li>
+                                        
+                                        <li>
+                                            <time datetime="1636546140000" class="annual-block-date">
+                                2021-11-10 20:09
+                              </time>
+                                            <a class="annual-block-title" href="article/mooc-1">
+                                                ①MOOC 计算机简介
+                                            </a>
+                                        </li>
+                                        
+                                        <li>
+                                            <time datetime="1636542582000" class="annual-block-date">
+                                2021-11-10 19:09
+                              </time>
+                                            <a class="annual-block-title" href="article/mooc">
+                                                MOOC 前言
+                                            </a>
+                                        </li>
+                                        
+                                </ol>
+                            </div>
+                            
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+    </div>
+
+</div>
+<div class="go_top"><i class="fa fa-angle-up"></i></div>
+            <div class="go_top"><i class="fa fa-angle-up"></i></div>
+            <!--index页面的底部部分-->
+<div class="index_footer">
+    <div class="base_footer">
+        <ul>
+            <li><a href="#" target="_blank" title="QQ:1224430842@qq.com"  class="base_footer_qq"><i class="fa fa-qq"></i></a></li>
+            <li><a href="#" target="_blank" title="邮箱：1224430842@qq.com" class="base_footer_email"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="javascript:void(0)" title="扫描微信二维码你也联系不上我" class="base_footer_weixin"><i class="fa fa-weixin"></i><img src="/_assets/img/erweima.png"></a></li>
+        </ul>
+    
+        <span class="base_footer_text">Copyright © 2022-2099 Power by SUN的博客</span>
+        <span class="base_footer_text">ICP备案号：<a href="http://www.beian.miit.gov.cn/">XXXXXXXXXX</a></span>
+    </div>
+    
+</div>
+
+<script src="/_markdown_plugin_assets/mermaid/mermaid.min.js"></script>
+<script src="/_markdown_plugin_assets/mermaid/mermaid_render.js"></script></body>
+
+</html>
