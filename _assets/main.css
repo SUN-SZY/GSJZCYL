@@ -412,7 +412,7 @@ template {
 .main {
     max-width: 800px;
     width: 70%;
-    margin: 1% auto 1%;
+    margin: 50% auto 50%;
 }
 
 @media screen and (max-width: 600px) {
