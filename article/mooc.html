@@ -185,6 +185,15 @@
                     <!--文章页内容开始的地方-->
 
                     <link rel="stylesheet" href="../_assets/main.css" />
+<script type="text/javascript">
+    window.onload = windowHeight; //页面载入完毕执行函数
+    function windowHeight() {
+        var h = document.documentElement.clientHeight; //获取当前窗口可视操作区域高度
+        var bodyHeight = document.getElementById("divContent"); //寻找ID为content的对象
+        bodyHeight.style.height = (h - 25) + "px"; //你想要自适应高度的对象
+    }
+    setInterval(windowHeight, 500) //每半秒执行一次windowHeight函数
+</script>
 
 <div class="main">
     <article>
@@ -207,6 +216,7 @@
         
             </div>
         </header>
+
         <div class="article-content markdown-body">
             <nav class="table-of-contents"><ul><li><a href="#一-书籍推荐">一、书籍推荐</a></li><li><a href="#二-课程体系结构">二、课程体系结构</a></li><li><a href="#三-课程组织">三、课程组织</a></li></ul></nav><p><a title="../%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E2%91%A0MOOC%20%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AE%80%E4%BB%8B.md" href="../%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E2%91%A0MOOC%20%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AE%80%E4%BB%8B.md">MOOC 计算机简介</a></p>
 <h2 id="一-书籍推荐">一、书籍推荐</h2>
@@ -241,6 +251,8 @@ emperor((计算机体系结构))-.-计算机组成原理-.- 基本逻辑单元�
 </ul>
 
         </div>
+
+
     </article>
 </div>
 

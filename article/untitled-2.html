@@ -185,6 +185,15 @@
                     <!--文章页内容开始的地方-->
 
                     <link rel="stylesheet" href="../_assets/main.css" />
+<script type="text/javascript">
+    window.onload = windowHeight; //页面载入完毕执行函数
+    function windowHeight() {
+        var h = document.documentElement.clientHeight; //获取当前窗口可视操作区域高度
+        var bodyHeight = document.getElementById("divContent"); //寻找ID为content的对象
+        bodyHeight.style.height = (h - 25) + "px"; //你想要自适应高度的对象
+    }
+    setInterval(windowHeight, 500) //每半秒执行一次windowHeight函数
+</script>
 
 <div class="main">
     <article>
@@ -213,6 +222,7 @@
                 
             </div>
         </header>
+
         <div class="article-content markdown-body">
             <nav class="table-of-contents"><ul><li><a href="#概述">概述</a></li><li><a href="#存储器的分类">存储器的分类</a></li><li><a href="#存储器的层次结构">存储器的层次结构</a><ul><li><a href="#存储器的三个特性的主要关系">存储器的三个特性的主要关系</a></li><li><a href="#缓存-主存层次和主存-辅存层次">缓存-主存层次和主存-辅存层次</a></li></ul></li><li><a href="#主存储器">主存储器</a><ul><li><a href="#概述-1">概述</a></li><li><a href="#主存储器半导体芯片简介">主存储器–半导体芯片简介</a></li><li><a href="#如何选择芯片">如何选择芯片</a></li><li><a href="#主存储器随机存取存储器">主存储器–随机存取存储器</a><ul><li><a href="#静态ram-双稳态存储器">静态RAM （双稳态存储器）</a></li><li><a href="#动态ram电容存储器">动态RAM（电容存储器）</a></li></ul></li><li><a href="#只读存储器rom">只读存储器（ROM）</a></li><li><a href="#主存储器存储器与cpu的连接">主存储器–存储器与CPU的连接</a></li></ul></li></ul></nav><h2 id="概述">概述</h2>
 <ul>
@@ -951,6 +961,8 @@
 </ul>
 
         </div>
+
+
     </article>
 </div>
 

@@ -185,6 +185,15 @@
                     <!--文章页内容开始的地方-->
 
                     <link rel="stylesheet" href="../_assets/main.css" />
+<script type="text/javascript">
+    window.onload = windowHeight; //页面载入完毕执行函数
+    function windowHeight() {
+        var h = document.documentElement.clientHeight; //获取当前窗口可视操作区域高度
+        var bodyHeight = document.getElementById("divContent"); //寻找ID为content的对象
+        bodyHeight.style.height = (h - 25) + "px"; //你想要自适应高度的对象
+    }
+    setInterval(windowHeight, 500) //每半秒执行一次windowHeight函数
+</script>
 
 <div class="main">
     <article>
@@ -213,6 +222,7 @@
                 
             </div>
         </header>
+
         <div class="article-content markdown-body">
             <nav class="table-of-contents"><ul><li><a href="#一-冯诺依曼计算机">一、冯·诺依曼计算机</a><ul><li><a href="#二-如何使用计算机解决问题">二、如何使用计算机解决问题</a><ul><li><a href="#存储器">存储器</a></li><li><a href="#运算器">运算器</a></li><li><a href="#运算控制">运算控制</a></li><li><a href="#主机完成一条指令的过程">主机完成一条指令的过程</a></li></ul></li><li><a href="#要求-处理速度快-内存大">要求 处理速度快、内存大</a></li></ul></li></ul></nav><h1 id="一-冯诺依曼计算机">一、冯·诺依曼计算机</h1>
 <ol>
@@ -627,6 +637,8 @@ c-1 5-5 9-11 9h-2L532 67 19 159h-2c-5 0-9-4-11-9l-5-22c-1-6 2-12 8-13z"></path><
 </ul>
 
         </div>
+
+
     </article>
 </div>
 

@@ -185,6 +185,15 @@
                     <!--文章页内容开始的地方-->
 
                     <link rel="stylesheet" href="../_assets/main.css" />
+<script type="text/javascript">
+    window.onload = windowHeight; //页面载入完毕执行函数
+    function windowHeight() {
+        var h = document.documentElement.clientHeight; //获取当前窗口可视操作区域高度
+        var bodyHeight = document.getElementById("divContent"); //寻找ID为content的对象
+        bodyHeight.style.height = (h - 25) + "px"; //你想要自适应高度的对象
+    }
+    setInterval(windowHeight, 500) //每半秒执行一次windowHeight函数
+</script>
 
 <div class="main">
     <article>
@@ -213,6 +222,7 @@
                 
             </div>
         </header>
+
         <div class="article-content markdown-body">
             <nav class="table-of-contents"><ul><li><a href="#计算机产生和发展">计算机产生和发展</a><ul><li><a href="#微型计算机的出现和发展">微型计算机的出现和发展</a></li><li><a href="#计算机技术的兴起和发展">计算机技术的兴起和发展</a></li><li><a href="#计算机的应用">计算机的应用</a></li><li><a href="#计算机展望">计算机展望</a></li></ul></li></ul></nav><h1 id="计算机产生和发展">计算机产生和发展</h1>
 <ul>
@@ -343,6 +353,8 @@
 </ul>
 
         </div>
+
+
     </article>
 </div>
 

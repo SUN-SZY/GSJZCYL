@@ -185,6 +185,15 @@
                     <!--文章页内容开始的地方-->
 
                     <link rel="stylesheet" href="../_assets/main.css" />
+<script type="text/javascript">
+    window.onload = windowHeight; //页面载入完毕执行函数
+    function windowHeight() {
+        var h = document.documentElement.clientHeight; //获取当前窗口可视操作区域高度
+        var bodyHeight = document.getElementById("divContent"); //寻找ID为content的对象
+        bodyHeight.style.height = (h - 25) + "px"; //你想要自适应高度的对象
+    }
+    setInterval(windowHeight, 500) //每半秒执行一次windowHeight函数
+</script>
 
 <div class="main">
     <article>
@@ -213,6 +222,7 @@
                 
             </div>
         </header>
+
         <div class="article-content markdown-body">
             <nav class="table-of-contents"><ul><li><a href="#总线的基本概念">总线的基本概念</a></li><li><a href="#总线的分类">总线的分类</a></li><li><a href="#总线的性能及性能指标">总线的性能及性能指标</a></li><li><a href="#总线结构">总线结构</a></li><li><a href="#总线的控制">总线的控制</a><ul><li><a href="#总线的通信控制">总线的通信控制</a></li><li><a href="#总线通信的四种方式">总线通信的四种方式</a></li></ul></li></ul></nav><h2 id="总线的基本概念">总线的基本概念</h2>
 <ul>
@@ -658,6 +668,8 @@
 </ul>
 
         </div>
+
+
     </article>
 </div>
 
