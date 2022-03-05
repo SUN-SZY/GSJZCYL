@@ -223,7 +223,7 @@
     
     .element {
         width: 100%;
-        margin: -60% 0% 0% -10%;
+        margin: -60% 0% 0% 0%;
         /* background-color: #eee; */
         height: auto;
         /* padding-bottom: 100%;
@@ -244,6 +244,23 @@
         padding-bottom: inherit;
         padding-top: 0;
         margin-bottom: inherit;
+    }
+    
+    .katex-html {
+        max-width: 100%;
+        overflow: hidden;
+        overflow-x: auto;
+        white-space: nowrap
+    }
+    
+    .element img {
+        min-height: auto;
+        min-width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: 100%;
     }
 </style>
 
@@ -325,7 +342,7 @@ emperor((计算机体系结构))-.-计算机组成原理-.- 基本逻辑单元�
                 <div class="article_dig">
 
                     <!--文章页的点赞按钮-->
-                    <a href="javascript:void(0)" class="wenzhang_dig_button" title="点个赞鼓励一下吧！"><i class="fa fa-thumbs-up"></i></a>
+                    <!-- <a href="javascript:void(0)" class="wenzhang_dig_button" title="点个赞鼓励一下吧！"><i class="fa fa-thumbs-up"></i></a> -->
 
                     <!--分享插件的盒子-->
                     <div id="share"></div>
