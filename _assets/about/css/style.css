@@ -1,0 +1,1945 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* 主体 */
+.centent{
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+/* 设置宽度为100vw 铺满屏幕 最大宽度100%去掉windows系统横向滚动条 高度100vh铺满屏幕 */
+}
+
+/*头部*/
+.head{
+    position:fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background: #ffffff;
+    z-index:5;
+}
+
+
+/* 头部左边 */
+.head-left{
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-left: 20px;
+
+}
+
+/* 头部右边 */
+.head-right{
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-right: 40px;
+
+}
+
+/* 头像 */
+.tx{
+    width: 45px;
+    height: 45px;
+    margin-left: 20px;
+}
+/* 头像图片 */
+.tx>a>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 360%;
+
+}
+
+/* 昵称框 */
+.nc{
+    margin-left: 15px;
+}
+/* 昵称文字 */
+.nc>p{
+    color: #03A9F4;
+    font-size: 16px;
+}
+
+/* 右边内容框 */
+.nr{
+    margin-right: 20px;
+}
+
+/* 内容链接 */
+.nr>a{
+    text-decoration:none;
+    color: rgb(44, 43, 43);
+
+}
+
+/* 内容 */
+.nr>a>p{
+    color: rgb(44, 43, 43);
+    font-size: 16px;
+}
+
+
+
+
+
+
+/* 右边内容框 手机版 */
+/* .gd{
+    display: flex;
+    margin-right: 20px;
+    display:none;
+
+} */
+
+/* 内容链接 手机版 */
+/* .gd>a{
+    text-decoration:none;
+    color: rgb(44, 43, 43);
+
+} */
+
+/* 内容 手机版 */
+/* .gd>p{
+    color: rgb(44, 43, 43);
+    font-size: 16px;
+} */
+
+
+
+
+
+
+/* 中间内容 */
+.main{
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+}
+
+/* 中间内容左边 */
+.main-left{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+}
+
+
+/* 中间内容右 */
+.main-right{
+    display: flex;
+    height: 100vh;
+    flex: 1.5;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 中间内容左边框 */
+.main-left-n{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* 中间内容左侧大标题 */
+.main-left-n-s{
+    font-size: 20px;
+    color: #444950;
+}
+
+/* 中间内容左侧小标题 */
+.main-left-n-x{
+    font-size: 20px;
+    margin-top:40px;
+    color: #637792;
+    width: 100%;
+}
+
+/* 中间内容左侧小标题 */
+.main-left-n-xx{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    margin-top:25px;
+    color: #637792;
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* 中间内容左侧图标栏 */
+.main-left-n-tu{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top:25px;
+}
+
+/* 中间内容左侧图标栏a */
+.main-left-n-tu>a{
+    text-decoration:none;
+    margin: 12px;
+}
+
+/* 中间内容左侧图标栏图标 */
+.main-left-n-tu>a>i{
+    color: #03a9f4;
+    font-size: 25px;
+}
+
+
+
+/* 中间内容左侧按钮 */
+.main-left-n-an{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* 去掉按钮a标签下划线 */
+.main-left-n-an>a{
+    margin: 0 7px;
+    text-decoration:none;
+}
+
+
+/* 中间内容左侧按钮体 */
+.main-left-n-an-anniu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+    color: #ffffff;
+    font-size: 17px;
+    box-shadow: 0px 0px 10px #93c5df;
+    background-image: linear-gradient(80deg, #006dfe,#03a9f4);
+    border-radius: 8px;
+    margin-bottom: 15px;
+
+}
+
+
+/*去除所有a标签点击时的背景色*/
+a{
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-user-select:none;
+	-moz-user-focus: none;
+    -moz-user-select: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 右边内容区 */
+
+/* .main-right-background{
+    display: flex;
+    width: 90%;
+    max-width: 90%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: crimson;
+    /* background-image:url("/assets/img/back.png");
+    background-size:cover; */
+    /* margin-bottom: 50px; */
+
+/* } */ 
+
+.main-right-background {
+    display: flex;
+    width: 90%;
+    max-width: 90%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.main-right-background>img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 最新动态区 */
+
+/* 动态独立标题 */
+.dongtaidbt{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    color: #0a274d;
+}
+
+/* 动态主框架 */
+.dongtai{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+/*     background: chocolate; */
+    margin-top: 25px;
+    justify-content: center;
+    
+}
+.dongtai-nr{
+    width: 90%;
+    height: auto;
+    display: flex;
+    /* background: crimson; */
+    flex-wrap: wrap;
+}
+
+.dongtai-zhu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: auto;
+    /* background: cornflowerblue; */
+    /* background: chartreuse; */
+}
+
+.dongtai-zhu-k{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 5px 25px #e7e5e5;
+}
+
+.dongtai-zhu-k-img{
+    width: 100%;
+    max-width: 100%;
+    height: 320px;
+    /* background: chocolate; */
+    border-radius: 10px 10px 0px 0px;
+}
+.dongtai-zhu-k-img>img{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
+}
+
+.dongtai-zhu-k-time{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    /* background: rgb(211, 156, 6);  */
+
+}
+.dongtai-zhu-k-time>p{
+    width: 90%;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #8492a6;
+}
+
+.dongtai-zhu-k-bt{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* background: rgb(103, 103, 201); */
+    
+}
+.dongtai-zhu-k-bt>p{
+    width: 90%;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #475669;
+}
+.dongtai-zhu-k-bt>p>a{
+    text-decoration: none;
+    color: #475669;
+}
+/* 鼠标悬停标题变颜 */
+.dongtai-zhu-k-bt>p>a:hover{
+    color: #42aeff;
+}
+
+.dongtai-zhu-k-bq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    /* background: chartreuse; */
+    border-radius: 0px 0px 10px 10px;
+}
+.dongtai-zhu-k-bq-k{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: chocolate;  */
+}
+.dongtai-zhu-k-bq-k>p{
+    width: 60px;
+    height: 25px;
+    font-size: 10px;
+    background: #ddf0ff;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 360px;
+    color: #42aeff;
+}
+
+.dongtai-zhu-k-bq-k-yuedu{
+    width: auto;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    /* background: chartreuse; */
+}
+.dongtai-zhu-k-bq-k-yuedu>i{
+    font-size: 17px;
+    color: #42aeff;
+}
+.dongtai-zhu-k-bq-k-yuedu>p{
+    font-size: 16px;
+    margin-left: 5px;
+    color: #42aeff;
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 旗下网站区 */
+
+/* 独立标题 */
+.qixiabt{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    color: #0a274d;
+}
+
+
+.qixia{
+    width: 100%;
+    height: auto;
+   /*  background: darkviolet; */
+    display: flex;
+    justify-content: center;  
+
+}
+
+.qixia-k{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* background: chartreuse; */
+}
+
+.qixia-k-zhu{
+    width: 25%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    /* background-color: rgb(255, 145, 0); */
+}
+
+.qixia-k-zhu-ka{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px 5px 10px 10px;
+    box-shadow: 0px 5px 25px #e7e5e5;
+    /* background: rgb(100, 237, 118); */
+}
+.qixia-k-zhu-ka>a{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.qixia-k-zhu-ka-topy{
+    width: 100%;
+    height: 3px;
+    background: #03a9f4;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+.qixia-k-zhu-ka-zhong{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    /* background: rgb(11, 92, 184); */
+}
+.qixia-k-zhu-ka-zhong>p{
+    font-size: 15.5px;
+    color: #475669;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.qixia-k-zhu-ka-zhong-n{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    /* background: rgb(184, 11, 126); */
+}
+.qixia-k-zhu-ka-zhong-n>p{
+    font-size: 13px;
+    color: #475669;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 5px;
+    margin-right: 5px;
+}   
+
+
+.qixia-k-zhu-ka-zhong-img{
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 360px;
+    margin-top: 25px;
+}
+.qixia-k-zhu-ka-zhong-img>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 360px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+/* 旗下网站标题从下到上 */
+ .qixiabt{
+    position: relative;
+    animation:myfirsjs 0.9s;
+    -webkit-animation:myfirsjs 0.9s;  /* Safari and Chrome */
+ }
+ 
+@keyframes myfirsjs
+{
+    0%  {opacity:0;bottom:-500px;}
+    50% {bottom:500px;}
+    100% {bottom:0px;}
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 旗下网站区头像旋转动画 */
+/* @-webkit-keyframes gogogo {
+    0%{
+        -webkit-transform: rotate(0deg);
+        border:1px solid red;
+    }
+    50%{
+        -webkit-transform: rotate(180deg);
+       border:1px solid rgb(0, 217, 255);
+    }
+    100%{
+        -webkit-transform: rotate(360deg);
+       border:1px solid red;
+    }
+ 
+ 
+}
+.qixia-k-zhu-ka-zhong-img>img{
+   -webkit-animation:gogogo 15s infinite linear ;
+ 
+}  */
+
+
+/* 旗下网站区顶部颜色条变化动画 */
+/* @-webkit-keyframes gogo {
+    0%{
+        background:rgb(0, 238, 255);
+    }
+    25%{
+        background:rgb(255, 0, 200);
+    }
+
+    50%{
+        background:rgb(255, 145, 0);
+
+    }
+    75%{
+        background:rgb(255, 17, 0);
+    }
+    100%{
+        background: rgb(0, 238, 255);
+    }
+ 
+ 
+}
+.qixia-k-zhu-ka-topy{
+    -webkit-animation:gogo 10s infinite linear ;
+ 
+  
+ } */
+
+
+ /* 旗下网站区鼠标悬停内容卡片动画 */
+.qixia-k-zhu-ka{
+    transition:all 0.25s linear 0s;
+    }
+.qixia-k-zhu-ka:hover{
+    box-shadow: 0px 0px 10px #e7e5e5;
+    transform: translate(0,5px);
+    }
+
+
+
+
+/* 旗下网站区当分辨率低于1200的实时每行显示3个 */
+@media screen and (max-width: 1200px) {
+    .qixia-k-zhu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 33.3%;
+        height: auto;  
+    }
+    /* 设置外框架宽度90% */
+    .qixia-k{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        /* background: chartreuse; */
+    }
+}
+
+/* 旗下网站区当分辨率低于1000的实时每行显示2个 */
+@media screen and (max-width: 1000px) {
+    .qixia-k-zhu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: auto;
+    }
+    
+}
+
+/* 旗下网站区当分辨率低于560的实时每行显示1个 */
+/*@media screen and (max-width: 560px) {
+    .qixia-k-zhu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        
+    }
+}*/
+/* 旗下网站区当分辨率低于560时设置内容区宽度为100% */
+@media screen and (max-width: 560px) {
+    .qixia-k{
+        width: 98%;
+        height: auto;
+        display: flex;
+        /* background: crimson; */
+        flex-wrap: wrap;
+    }
+}
+
+
+/* 旗下网站区卡片从下到上 */
+ .qixia-k-zhu{
+    position: relative;
+    animation:myfirsjs 1.0s;
+    -webkit-animation:myfirsjs 1.0s;  /* Safari and Chrome */
+ }
+@keyframes myfirsjs
+{
+    0%  {opacity:0;bottom:-500px;}
+    50% {bottom:50px;}
+    100% {bottom:0px;}
+
+} 
+/* 放大动画 */
+/* .qixia-k-zhu-ka-zhong-img
+{
+    -webkit-transition: width 0.5s, height 0.5s, -webkit-transform 0.5s; */ /* For Safari 3.1 to 6.0 */
+/*     transition: width 0.5s, height 0.5s, transform 0.5s;
+} 
+
+
+.qixia-k-zhu-ka-zhong-img:hover
+{
+    width: 100%;
+    height: 60px;
+    border-radius: 0px 0px 10px 10px;
+
+}  */ 
+
+/* 旗下网站区 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 底部版权 */
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-height: 200px;
+    margin-top: 50px;
+    background: #303846;
+}
+
+
+/* 版权声明 */
+.Copyright{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    color: #ffffff;
+    font-size: 15px;
+    background: #303846;
+}
+.Copyright>p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+.Copyright>p>a{
+    text-decoration: none;
+    color: #03a9f4;
+
+}
+
+
+
+
+
+
+/* 左侧  */
+.zuoce{
+    width: 20%;
+    max-width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* 中间  */
+.zhong{
+    width: 20%;
+    max-width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* 右侧  */
+.youce{
+    width: 20%;
+    max-width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+/* 左侧标题 */
+.zuoce-bt{
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+/* 中间标题 */
+.zhong-bt{
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+/* 右侧标题 */
+.youce-bt{
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+
+/* 左侧内容 */
+.zuoce-neirong{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.zuoce-neirong .lj{
+    margin-bottom: 10px;
+}
+.zuoce-neirong .lj>a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/* 中间内容 */
+.zhong-neirong{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.zhong-neirong .lj{
+    margin-bottom: 10px;
+}
+.zhong-neirong .lj>a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/* 右侧内容 */
+.youce-neirong{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.youce-neirong .lj{
+    margin-bottom: 10px;
+}
+.youce-neirong .lj>a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+
+
+/* 版权部分动画 */
+/* 左侧 */
+.zuoce-neirong .lj>a{
+    position: relative;
+  }
+  .zuoce-neirong .lj>a:after {
+    content: "";
+    width:0;
+    height:2px;
+    background: #03a9f4;;
+    position:absolute;
+    top:100%;
+    left:0%;
+    transition:all.3s;
+  }
+  
+  .zuoce-neirong .lj>a:hover:after {
+    left:0%;
+    width:100%;
+  }
+  /* 中间 */
+.zhong-neirong .lj>a{
+    position: relative;
+  }
+  .zhong-neirong .lj>a:after {
+    content: "";
+    width:0;
+    height:2px;
+    background: #03a9f4;;
+    position:absolute;
+    top:100%;
+    left:0%;
+    transition:all.3s;
+  }
+  
+  .zhong-neirong .lj>a:hover:after {
+    left:0%;
+    width:100%;
+  }
+/* 右侧 */
+.youce-neirong .lj>a{
+    position: relative;
+  }
+  .youce-neirong .lj>a:after {
+    content: "";
+    width:0;
+    height:2px;
+    background: #03a9f4;;
+    position:absolute;
+    top:100%;
+    left:0%;
+    transition:all.3s;
+  }
+  
+  .youce-neirong .lj>a:hover:after {
+    left:0%;
+    width:100%;
+  }
+/* 版权部分动画 end↑ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 手机端侧滑栏 */
+.android-ce{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    position:fixed;
+    top: 0;
+    z-index: 6;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+
+}
+
+/* 侧滑栏开关-开 */
+.cehua{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+
+}
+/* 侧滑栏左侧菜单框架 */
+.android-ce-caidan{
+    width: 80vw;
+    height: 100vh;
+    background: #ffffff;
+}
+/* 侧滑栏右侧点击关闭侧滑栏 */
+/* .android-ce-guan{
+    width: 20%;
+    max-width: 20%;
+    height: 100vh;
+
+} */
+
+/* 侧滑栏左侧菜单头部 */
+.android-ce-caidan-head{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    height: 60px;
+    background: #ffffff;
+    box-shadow: 0px 1px 10px rgba(94, 93, 93, 0.2)
+}
+
+.android-ce-caidan-head .tx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+}
+.android-ce-caidan-head .tx>img{
+    width: 40px;
+    height: 40px;
+    border-radius: 360px;
+}
+
+.android-ce-caidan-head>p{
+    color: #03A9F4;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.android-ce-caidanlie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.android-ce-caidanlie-lie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    max-width: 90%;
+    height: 50px;
+}
+
+.android-ce-caidanlie-lie .lj>a{
+    width: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(59, 57, 57);
+}
+
+
+
+/* 侧滑栏出现与隐藏动画 */
+.android-ce{
+    animation:myfirsaq 0.3s;
+    -webkit-animation:myfirsaq 0.3s; /* Safari and Chrome */
+}
+@keyframes myfirsaq
+{
+    0%  {opacity:0;}
+    100%  {}
+}
+
+/* 内容区标题从下到上 */
+.android-ce-caidan{
+    position: relative;
+    animation:myfirsjsqw 0.3s;
+    -webkit-animation:myfirsjsqw 0.3s; /* Safari and Chrome */
+}
+@keyframes myfirsjsqw
+{
+    0%  {opacity:0;left:-500px;}
+    100% {left:0px;}
+
+}
+
+
+
+/* 侧滑栏出现与隐藏动画 end↑ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 动画区 */
+
+/* 设置最新动态的卡片在手机屏幕下指定分辨率的行个数 */
+/* 当分辨率低于1200的实时每行显示3个 */
+@media screen and (max-width: 1200px) {
+    .dongtai-zhu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 33.33%;
+        height: auto;
+        
+    }
+}
+
+/* 当分辨率低于1000的实时每行显示2个 */
+@media screen and (max-width: 1000px) {
+    .dongtai-zhu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: auto;
+        
+    }
+}
+
+/* 当分辨率低于560的时每行显示1个 */
+@media screen and (max-width: 560px) {
+    .dongtai-zhu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* 当分辨率低于560时设置内容区宽度为100% */
+@media screen and (max-width: 560px) {
+    .dongtai-nr{
+        width: 100%;
+        height: auto;
+        display: flex;
+        /* background: crimson; */
+        flex-wrap: wrap;
+    }
+}
+
+
+
+/* 达到一定分辨率隐藏手机头部菜单 */
+/* @media screen and (min-width:1000px) {
+.gd-lb{
+    display: none;
+}
+    
+} */
+
+/* @media screen and (max-width:400px) {
+    .dongtai-nr-zhu-footer{
+        width: 90%;
+        max-width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        }
+}
+
+
+@media screen and (max-width:1000px) {
+    .dongtai-k{
+        width: 90%;
+        max-height: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
+
+    .dongtai-nr{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    /*     background: crimson; */
+ /*    background: crimson;
+    flex-direction: column;
+    } */
+
+    /* .dongtai-nr-zhu-img{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        max-height: 500px;
+        border-radius: 10px;
+        margin: 20px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .dongtai-nr-zhu-img>img{
+        width: 90%;
+        max-width: 90%;
+        height: auto;
+        max-height: 500px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+ */
+/* } */ 
+
+
+/* 到达一定分辨率隐藏手机侧滑栏开关 */
+@media screen and (min-width:1000px) {
+    .cehua{
+        display: none;
+    }
+    
+}
+
+
+/* 达到一定分辨率隐藏手机头部菜单 */
+/* @media screen and (max-width:400px) {
+.dongtai-nr-right-button{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 40px;
+} */
+/* .dongtai-nr-right-button-right .an{
+    margin-top: 10px;
+} */
+
+        
+/* }
+ */
+
+
+
+
+
+
+/* 达到一定分辨率隐藏右边部分 */
+@media screen and (max-width:1000px) {
+
+
+    /* 中间内容左边 */
+.main-left{
+    height: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
+
+    /* 切换中间内容布局为垂直 */
+.main{
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+    /* 设置图标的位置居中 */
+    /* 中间内容左侧图标栏 */
+.main-left-n-tu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top:25px;
+}
+
+
+
+/* 中间内容左侧小标题 */
+
+/* 中间内容左侧小标题 */
+.main-left-n-x{
+    font-size: 17px;
+    margin-top:40px;
+    color: #637792;
+    width: 100%;
+
+}
+
+.main-left-n-xx{
+    display: flex;
+    font-size: 16px;
+    margin-top:25px;
+    color: #637792;
+    width: 100%;
+}
+
+
+/* 修改大标题字体大小 */
+.main-left-n-s{
+    font-size: 18px;
+    color: #444950;
+}
+
+
+
+/* 中间内容左侧图标栏a */
+.main-left-n-tu>a{
+    text-decoration:none;
+    margin: 10px;
+}
+
+
+
+/* 中间内容左边框 */
+.main-left-n{
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+
+
+/* 头部左边 */
+.head-left{
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-left: 10px;
+
+}
+
+/* 头部右边 */
+.head-right{
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-right: 10px;
+
+}
+
+
+/* 隐藏电脑版内容 */
+.nr{
+    display: none;
+} 
+
+
+/* 设置右边框架在手机时高度为自适应 */
+.main-right{
+    display: flex;
+    height: auto;
+    /* flex: 1.5; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+/* 设置 最新动态四个字在手机状态下的顶边距 */
+
+.dongtaidbt{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+/* 右边内容框 手机版 */
+/* .gd{
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+}*/
+
+/*
+.gd>i{
+    font-size: 10px;
+    color: rgb(44, 43, 43);
+} */
+
+
+/* 头部左边 */
+.head-left{
+    display: flex;
+    margin-left: 10px;
+
+}
+/* 头像 */
+.tx{
+    width: 45px;
+    height: 45px;
+    margin-left: 0px;
+}
+
+
+
+/* .gd-lb{
+    z-index: 4;
+} */
+/* 右边内容框 */
+/* .gd-lb>a{ 
+    text-decoration: none;
+} */
+
+/* 显示按钮 */
+/* .gd>input{
+    width: 50px;
+    height: 50px;
+    border:none;
+    background: #ffffff;
+    font-size: 16px;
+    outline:none;
+    color: rgb(44, 43, 43);
+} */
+
+
+/* 内容 */
+/* .gd-lb{
+    position:fixed;
+    right:10px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow:0px 0px 5px #e2dddd;
+} */
+
+/* .gd-lb>a{
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 5px 0px 0px 0px;
+
+
+} */
+
+/* .gd-lb>a>p{
+    font-size: 16px;
+    color: rgb(44, 43, 43);
+
+} */
+
+/* 手机版内容出现动画 渐显 头部右边更多*/
+/* .main .gd-lb>a>p{
+    position:relative;
+    animation:myfirsjs 1s;
+    -webkit-animation:myfirsjshead 1s; /* Safari and Chrome */
+/* }
+@keyframes myfirsjshead
+{
+    0%  {opacity:0;}
+
+    100% {}
+} */ 
+
+
+
+
+/* 动态区 */
+
+/* .dongtai-nr{
+    display: flex;
+    width: 90%;
+    max-width: 90%;
+    height: auto;
+    margin-top: 50px;
+    flex-direction: column;
+    box-shadow:0px 0px 35px #e7e5e5;
+    border-radius: 15px;
+} */
+
+
+/* .dongtai-nr{
+    display: flex;
+    width: 85%;
+    max-width: 85%;
+    height: auto;
+    flex-direction: column;
+    box-shadow:0px 0px 35px #e7e5e5;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+} */
+
+/* .dongtai-nr{
+    display: flex;
+    width: 85%;
+    max-width: 85%;
+    justify-content: center;
+    height: auto;
+    flex-direction: column;
+    margin-top: 50px;
+    box-shadow:0px 0px 35px #e7e5e5;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px; 
+} */
+/* .dongtai-nr{
+    display: flex;
+    width: 85%;
+    max-width: 85%;
+    justify-content: center;
+    height: auto;
+    margin-top: 50px;
+    box-shadow:0px 0px 35px #e7e5e5;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px; 
+} */
+
+
+    
+/* .dongtai-nr-left{
+    display: flex;
+    justify-content: end;
+    flex: 1; */
+    /* background: rgb(18, 45, 95); */
+/* } */
+
+
+
+/* .dongtai-nr-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; */
+
+    /* background: rgb(43, 163, 69); */
+/* } */
+
+
+
+
+
+
+
+/* 底部版权 */
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    background: #303846;
+    align-items: center;
+}
+
+/* 左侧  */
+.zuoce{
+    display: flex;
+    width: 90%;
+    max-width: 90%;
+    flex-direction: column;
+    align-items: end;
+}
+
+/* 中间  */
+.zhong{
+    display: flex;
+    width: 90%;
+    max-width: 90%;
+    flex-direction: column;
+    align-items: end;
+}
+
+/* 右侧  */
+.youce{
+    display: flex;
+    width: 90%;
+    max-width: 90%;
+    flex-direction: column;
+    align-items: end;
+}
+
+
+
+
+
+
+
+
+
+
+}
+/* 动画区 end↑ */
+
+
+
+
+
+
+/* 按钮动画区 */
+
+/* 头部右边文字变颜动画 */
+/* .android-ce-caidanlie-lie .lj>a:hover{
+    color: #03a9f4;
+} */
+
+.head-right .nr>a>p:hover{
+    color: #03a9f4;
+
+}
+/* 侧滑栏栏目名字变颜 */
+.android-ce-caidanlie-lie .lj>a:hover{
+    color: #03a9f4;
+}
+
+
+/* 大标题从下到上 */
+/* .main-left-n-s>h1{
+    position:relative;
+    animation:myfirsjs 2.8s;
+    -webkit-animation:myfirsjs 2.8s; /* Safari and Chrome */
+/* }
+@keyframes myfirsjs
+{
+    0%  {opacity:0;bottom:-50px;}
+/*     50%  {opacity:0;bottom:50px;} */
+    /* 100% {bottom:0px;bottom: 0px;}
+} */
+.main-left-n-s>h1{
+    position: relative;
+    animation:myfirst 0.5s;
+    -webkit-animation:myfirst 0.5s; /* Safari and Chrome */
+}
+@keyframes myfirst
+{
+    0%  {opacity:0;bottom:-500px;}
+    50% {bottom:50px;}
+    100% {bottom:0px;}
+}
+
+/* 介绍文字从下到上 */
+.main-left-n-x>p{
+    position: relative;
+    animation:myfirsjs 0.6s;
+    -webkit-animation:myfirsjs 0.6s; /* Safari and Chrome */
+}
+@keyframes myfirsjs
+{
+    0%  {opacity:0;bottom:-500px;}
+    50% {bottom:50px;}
+    100% {bottom:0px;}
+
+}
+
+/* 介绍文字2从下到上 */
+.main-left-n-xx>p{
+    position: relative;
+    animation:myfirsjs 0.7s;
+    -webkit-animation:myfirsjs 0.7s; /* Safari and Chrome */
+}
+@keyframes myfirsjs
+{
+    0%  {opacity:0;bottom:-500px;}
+    50% {bottom:50px;}
+    100% {bottom:0px;}
+
+}
+
+/* 图标从下到上 */
+.main-left-n-tu>a{
+    position: relative;
+    animation:myfirsjs 0.8s;
+    -webkit-animation:myfirsjs 0.8s; /* Safari and Chrome */
+}
+@keyframes myfirsjs
+{
+    0%  {opacity:0;bottom:-500px;}
+    50% {bottom:50px;}
+    100% {bottom:0px;}
+
+}
+
+/* 按钮从下到上 */
+.main-left-n-an>a{
+    position: relative;
+    animation:myfirsjs 0.9s;
+    -webkit-animation:myfirsjs 0.9s; /* Safari and Chrome */
+}
+@keyframes myfirsjs
+{
+    0%  {opacity:0;bottom:-500px;}
+    50% {bottom:50px;}
+    100% {bottom:0px;}
+
+}
+
+/* 大图片从下到上 */
+.main-right-background>img{
+    position: relative;
+    animation:myfirsjs 0.7s;
+    -webkit-animation:myfirsjs 0.7s; /* Safari and Chrome */
+}
+@keyframes myfirsjs
+{
+    0%  {opacity:0;bottom:-500px;}
+    50% {bottom:50px;}
+    100% {bottom:0px;}
+
+}
+
+/* 内容区标题从下到上 */
+.dongtaidbt{
+    position: relative;
+    animation:myfirsjs 0.8s;
+    -webkit-animation:myfirsjs 0.8s; /* Safari and Chrome */
+}
+@keyframes myfirsjs
+{
+    0%  {opacity:0;bottom:-500px;}
+    50% {bottom:50px;}
+    100% {bottom:0px;}
+
+}
+
+
+
+/* 内容区内容框从下到上 */
+.dongtai-zhu{
+    position: relative;
+    animation:myfirsjs 0.9s;
+    -webkit-animation:myfirsjs 0.9s; /* Safari and Chrome */
+}
+@keyframes myfirsjs
+{
+    0%  {opacity:0;bottom:-500px;}
+    50% {bottom:50px;}
+    100% {bottom:0px;}
+
+}
+
+
+/* 图标鼠标悬停放大 */
+.main-left-n-tu>a{
+    transition:all 0.7s linear 0s;
+    }
+.main-left-n-tu>a:hover{
+    transform: scale(1.2,1.2);cursor: pointer;
+    }
+
+
+/* 头像鼠标悬停选择360度 */
+.head-left .tx>a>img {
+    -webkit-background-size: 220px 220px;
+    -moz-background-size: 220px 220px;
+    background-size: 220px 220px;
+    -webkit-border-radius: 110px;
+    border-radius: 110px;
+    -webkit-transition: -webkit-transform 1s ease-out;
+    -moz-transition: -moz-transform 1s ease-out;
+    -o-transition: -o-transform 1s ease-out;
+    -ms-transition: -ms-transform 1s ease-out;
+}
+.head-left .tx>a>img:hover {
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+
+
+/* 右侧大图动画 */
+.main-right-background{
+    overflow: hidden;
+}
+.main-right-background>img{
+
+   transition: all 1s;
+}
+.main-right-background>img:hover{
+   transform: scale(1.1);
+}
+
+
+
+/* 内容卡片图片动画 */
+.dongtai-zhu-k-img{
+    overflow: hidden;
+}
+.dongtai-zhu-k-img>img{
+
+   transition: all 1s;
+}
+.dongtai-zhu-k-img>img:hover{
+   transform: scale(1.1);
+}
+
+
+/* 鼠标悬停内容卡片动画 */
+.dongtai-zhu-k{
+    transition:all 0.25s linear 0s;
+    }
+.dongtai-zhu-k:hover{
+    box-shadow: 0px 0px 10px #e7e5e5;
+    transform: translate(0,5px);
+    }
